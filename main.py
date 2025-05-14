@@ -46,5 +46,14 @@ while len(guesses) < 6:
                 else: 
                     fguess += char
             guesses.append(fguess)
+print(f"""
+        {Fore.YELLOW}██████  ██    ██ {Fore.RESET}██████  ██████  ██      ███████ 
+        {Fore.YELLOW}██   ██  ██  ██  {Fore.RESET}██   ██ ██   ██ ██      ██      
+        {Fore.YELLOW}██████    ████   {Fore.RESET}██████  ██   ██ ██      █████   
+        {Fore.YELLOW}██         ██    {Fore.RESET}██   ██ ██   ██ ██      ██      
+        {Fore.YELLOW}██         ██    {Fore.RESET}██   ██ ██████  ███████ ███████ 
+                                            
+                                            """)
 print(f'{Fore.RED}You couldn\'t guess it! The word was {word}')
+input('')
             
