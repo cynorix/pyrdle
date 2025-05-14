@@ -1,0 +1,2 @@
+# pyrdle
+Wordle python integration
